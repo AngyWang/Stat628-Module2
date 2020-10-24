@@ -4,5 +4,8 @@
 
 - To check for multicollinearity, we also plotted the correlation plot. `Correlation Plot.png` is the correlation plot for all variables in the raw data.
 
-* Cross Validation results can be found in `Cross Validation Result For Simplest Model.png`, `Cross Validation Result For BIC Selected Model.png` and `Cross Validation Result For Final Model.png`.
-* The fitted result can be seen from `Fitted Value vs Original Value.png`, in which we compare the fitted values and the original data.
+- `BMI.png` and `siri.png` it the scatter plot of BMI and Siri equation.
+
+- Cross Validation results can be found in `Cross Validation Result For Simplest Model.png`, `Cross Validation Result For BIC Selected Model.png` and `Cross Validation Result For Final Model.png`.
+
+- Model diagnosis resluts are provided in `qqplot.png`, `residual.png`, `cook.png` and `leve.png`.
