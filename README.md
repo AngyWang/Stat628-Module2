@@ -1,17 +1,5 @@
 # Stat628-Module2-Group21
-This repository contains work related to STAT 628, instructed by Prof. Hyunseung Kang. We built a simple and robust model for predicting men's body fat percentage. 
-
-## Summary
-Module2_Summary.pdf is an summary of what we did for this module. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
-
-There are three folders providing more details in our main project, *code*, *image*, *data*.
-
-## Code
-The provided R code file contains three parts:
-
-* Data description and cleaning part, in which we illustrated the distributions and relationships among these variables and dropped unreasonable observations.
-* Model selection part, in which we built several models, compared their validities and then made a choice.
-* Model diagnosis part, in which we assess the assumptions and check the robustness, accuracy and speed.
+This project is the coursework for stat 628, in which we built a body fat percentage calculator through a data set with 252 males body features. you can find the final app of our calculator at [Body fat percentage Calculator](https://jiawei98.shinyapps.io/BodyFatUI/).
 
 ## Image
 This folder contains figures produced in our analysis.
@@ -22,14 +10,25 @@ This folder contains figures produced in our analysis.
 * Dotplot of Forearm And Bodyfat.png and Dotplot of Weight And Bodyfat.png are the dotplots for corresponding variables.
 * Correlation Plot.png is the correlation plot for all variables in the raw data.
 
+## Summary
+Nameofsummaryfile is an summary of what we did. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
+
+There are four folders providing more details in our main project, *code*, *image*, *data*.
+
+## Code
+The provided R code file contains three parts:
+
+* Data description and cleaning part, in which we illustrated the distributions and relationships among these variables and dropped unreasonable observations.
+* Model selection part, in which we built several models, compared their validities and then made a choice.
+* Model diagnosis part, in which we assess the assumptions and check the robustness, accuracy and speed.
+
+
 ## Data
-*BodyFat.csv* is the raw data set of available measurements include age, weight, height, bmi, and various body circumference measurements. 
+*BodyFat.csv* is the rawdata for our study。
+
 *new_BodyFat.Rdata* is the Rdata file after data cleaning.
 
-## Link to our web-based app
-- [Body fat % Calculator](https://jiawei98.shinyapps.io/BodyFatUI/)
-
 ## Authors
-* **Xiaofeng Wang** - (xwang2443@wisc.edu)
-* **Jiawei Huang** - (jhuang455@wisc.edu)
-* **Yiran Wang** -　(wang2559@wisc.edu)
+* **Xiaofeng Wang**(xwang2443@wisc.edu)
+* **Jiawei Huang**(jhuang455@wisc.edu)
+* **Yiran Wang**(wang2559@wisc.edu)
