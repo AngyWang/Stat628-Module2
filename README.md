@@ -1,4 +1,4 @@
-# Stat628-Module2-
+# Stat628-Module2-Group21
 This repository contains work related to STAT 628, instructed by Prof. Hyunseung Kang. We built a simple and robust model for predicting men's body fat percentage. 
 
 ## Link to our web-based app
