@@ -1,4 +1,4 @@
-Herewith we entach the essential information for the plots we use in this study.
+Herewith we attach the essential information for the plots we use in this study.
 
 - Histogram plot and box plot for body fat is provided. Histogram of Body Fat.png is the histogram of Bodyfat for the raw data. `Boxplot of Body Fat Divided By Age.png` is the boxplot of Bodyfat divided by age for the raw data.
 
