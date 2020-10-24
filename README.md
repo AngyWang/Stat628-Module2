@@ -26,7 +26,7 @@ The provided R code file contains three parts:
 ## Data
 *BodyFat.csv* is the rawdata for our study.
 
-*BodyFat_new.Rdata* is the csv file after data cleaning.
+*BodyFat_new.csv* is the csv file after data cleaning.
 
 ## Authors
 * **Xiaofeng Wang**(xwang2443@wisc.edu)
