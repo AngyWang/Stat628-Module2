@@ -10,4 +10,4 @@ Herewith we entach the essential information for the plots we use in this study.
 
 - Cross Validation results can be found in `Cross Validation Result For Simplest Model.png`, `Cross Validation Result For BIC Selected Model.png` and `Cross Validation Result For Final Model.png`.
 
-- Model diagnosis resluts are provided in `qqplot.png`, `residual.png`, `cook.png` and `leve.png`.
+- Model diagnosis resluts are provided in `QQplot.png`, `Residual.png`, `Cook.png` and `Leve.png`.
