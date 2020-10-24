@@ -49,6 +49,6 @@ This folder contains figures produced in our analysis.
 *new_BodyFat.Rdata* is the Rdata file after data cleaning.
 
 ## Authors
-* **Xiaofeng Wang** - (lma75@wisc.edu)
-* **Jiawei Huang** - (zzhou339@gmail.com)
+* **Xiaofeng Wang** - (xwang2443@wisc.edu)
+* **Jiawei Huang** - (jhuang455@wisc.edu)
 * **Yiran Wang** -　(wang2559@wisc.edu)
