@@ -1,6 +1,12 @@
 # Stat628-Module2-Group21
 This project is the coursework for stat 628, in which we built a body fat percentage calculator through a data set with 252 males body features. you can find the final app of our calculator at [Body Fat Calculator](https://jiawei98.shinyapps.io/BodyFatUI/).
 
+
+## Summary
+Nameofsummaryfile is an summary of what we did. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
+
+There are four folders providing more details in our main project, *code*, *image*, *data*.
+
 ## Image
 This folder contains figures produced in our analysis.
 
@@ -9,11 +15,6 @@ This folder contains figures produced in our analysis.
 * To check for multicollinearity, we also plotted the correlation plot. Correlation Plot.png is the correlation plot for all variables in the raw data.
 * Cross Validation results can be found in Cross Validation Result For Simplest Model, Cross Validation Result For BIC Selected Model.png and Cross Validation Result For Final Model.png.
 * The fitted result can be seen from Fitted Value vs Original Value.png, in which we compare the fitted values and the original data.
-
-## Summary
-Nameofsummaryfile is an summary of what we did. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
-
-There are four folders providing more details in our main project, *code*, *image*, *data*.
 
 ## Code
 The provided R code file contains three parts:
