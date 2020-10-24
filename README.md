@@ -8,17 +8,15 @@ Nameofsummaryfile is an summary of what we did. The results shows that the perce
 There are four folders providing more details in our main project, *code*, *image*, *data*.
 
 ## Files and Folders
-- `\Image` This folder contains the plots we get through the process of our analysis. You can find the description of each plot in file `\Image\Description.md` 
+- `\Image` contains the plots we get through the process of our analysis. You can find the description of each plot in file *Description.md* 
 
-- `\Code` The provided R code file for our analysis.
+- `\Code` provides R code file for our analysis.
 
-- 
+- `\Data` contains the raw data and precessed data for our analysis, in which *BodyFat.csv* is the rawdata for our study, *BodyFat_new.csv* is the csv file after data cleaning.
 
+- `Bodyfat_summary.pdf` is the *.pdf* report of our study.
 
-## Data
-*BodyFat.csv* is the rawdata for our study.
-
-*BodyFat_new.csv* is the csv file after data cleaning.
+- `presentation.pptx` is the video presentation sildes.
 
 ## Authors
 * **Xiaofeng Wang**(xwang2443@wisc.edu)
