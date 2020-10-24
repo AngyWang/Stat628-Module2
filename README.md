@@ -1,14 +1,10 @@
 # Stat628-Module2-Group21
 This repository contains work related to STAT 628, instructed by Prof. Hyunseung Kang. We built a simple and robust model for predicting men's body fat percentage. 
 
-## Link to our web-based app
-- [Body fat percentage Calculator](https://jiawei98.shinyapps.io/BodyFatUI/)
-
-
 ## Summary
-Nameofsummaryfile is an summary of what we did. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
+Module2_Summary.pdf is an summary of what we did for this module. The results shows that the percentage of body fat of a male is can be predicted by *Weight*, *Abdomen* and *Wrist circum*.
 
-There are four folders providing more details in our main project, *code*, *image*, *data*.
+There are three folders providing more details in our main project, *code*, *image*, *data*.
 
 ## Code
 The provided R code file contains three parts:
@@ -27,26 +23,11 @@ This folder contains figures produced in our analysis.
 * Correlation Plot.png is the correlation plot for all variables in the raw data.
 
 ## Data
-*BodyFat.csv* is the raw data set of available measurements include age, weight, height, bmi, and various body circumference measurements. In particular, the variables listed below (from left to right in the data set) are: 
-
-* Percent body fat from Siri's (1956) equation  
-* Density determined from underwater weighing  
-* Age (years)  
-* Weight (lbs)  
-* Height (inches)  
-* Adioposity (bmi)
-* Neck circumference (cm)  
-* Chest circumference (cm)  
-* Abdomen 2 circumference (cm)  
-* Hip circumference (cm)  
-* Thigh circumference (cm)  
-* Knee circumference (cm)  
-* Ankle circumference (cm)  
-* Biceps (extended) circumference (cm)  
-* Forearm circumference (cm)  
-* Wrist circumference (cm)  
-
+*BodyFat.csv* is the raw data set of available measurements include age, weight, height, bmi, and various body circumference measurements. 
 *new_BodyFat.Rdata* is the Rdata file after data cleaning.
+
+## Link to our web-based app
+- [Body fat % Calculator](https://jiawei98.shinyapps.io/BodyFatUI/)
 
 ## Authors
 * **Xiaofeng Wang** - (xwang2443@wisc.edu)
