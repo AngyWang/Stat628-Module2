@@ -27,7 +27,7 @@ plot(BMI,data$ADIPOSITY,xlab = "BMI",ylab = "ADIPOSITY")
 data<-data[-218,]
 data<-data[-161,]
 #Now we use another method: siri equation to detect the extreme points.
-Siri_equation<-(495/data$DENSITY)-450#This equation is from the Internet. URL:https://www.topendsports.com/testing/siri-equation.htm
+Siri_equation<-(495/data$DENSITY)-450#This equation is from the reference and Internet.
 plot(Siri_equation,data$BODYFAT,xlab = "Siri equation",ylab = "BODYFAT")
 #Ok, we find 3 points that are extreme points, now we can get their No.
 #identify(x=Siri_equation,y=data$BODYFAT,n=3)
