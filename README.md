@@ -1,5 +1,5 @@
 # Stat628-Module2-Group21
-This project is the coursework for stat 628, in which we built a body fat percentage calculator through a data set with 252 males body features. you can find the final app of our calculator at [Body Fat Calculator](https://jiawei98.shinyapps.io/BodyFatUI/).
+This project is the coursework for stat 628, in which we built a body fat percentage calculator through a data set with 252 males body features. You can find the final app of our calculator at [Body Fat Calculator](https://jiawei98.shinyapps.io/BodyFatUI/).
 
 
 ## Summary
