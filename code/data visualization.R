@@ -1,17 +1,16 @@
 # STAT 628 Module 2
-# Draft code
 BodyFat = read.csv("BodyFat.csv") #Read data into R
 attach(BodyFat) # This "attaches" the data into R. 
 dim(BodyFat) # Dimension of the data (number of rows, number of columns)
 colnames(BodyFat) #Variables in the Data
 
-# Step 1. Analyzing Raw Data
+# Analyzing Raw Data
 head(BodyFat) #Look at the first few data points 
 tail(BodyFat) #Look at the last few data points
 summary(BodyFat) #Gives you a brief summary statistic of all the variables in the data
 # Note that the first column contains the index number of each individual.
 
-# Step 2: Visualizing Data
+# Step 1: Visualizing Data
 library("ggplot2")
 library("cowplot")
 # Bodyfat description plot
