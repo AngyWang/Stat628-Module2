@@ -16,7 +16,7 @@ There are three folders providing more details in our main project: *code*, *ima
 
 - `Bodyfat_summary.pdf` is the *.pdf* report of our study.
 
-- `presentation.pptx` is the video presentation sildes.
+- `Presentation_sildes.pptx` is the video presentation sildes.
 
 ## Authors
 * **Xiaofeng Wang**(xwang2443@wisc.edu)
