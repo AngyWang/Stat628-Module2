@@ -1,3 +1,7 @@
+#Yiran Wang: data cleaning part, use CV to diagnose the model.
+#Xiaofeng Wang: Model testing, selection and try different method of modeling.
+#Jiawei Huang: add new method of data cleaning and do the anova test for interaction and square.
+
 #Step 1  Analyzing Raw Data
 
 data<-read.csv("BodyFat.csv")
@@ -115,10 +119,4 @@ plot(1:n,cooki,type="p",pch=19,cex=1.2,cex.lab=1.5,cex.main=1.5,
 par(mfrow = c(1,1))
 plot(data_new$BODYFAT,col="red",type="l",ylab = "Body Fat")
 lines(model3$fitted.values,col="blue",type="l")
-
-
-
-#Yiran Wang: data cleaning part, use CV to diagnose the model.
-#Xiaofeng Wang: Model testing, selection and try different method of modeling.
-#Jiawei Huang: add new method of data cleaning and do the anova test for interaction and square.
 
