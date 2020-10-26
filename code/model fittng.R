@@ -92,7 +92,7 @@ cv.lm(data = data_new, form.lm = model3, m=7)
 mybest3.mse<-sum((data_new$BODYFAT-model3$fitted.values)^2)/(length(data_new$BODYFAT)-3)
 mybest3.mse
 
-head(predict(model3,level=0.95,interval = "c"))
+head(predict(model3,level=0.95,interval = "predict"))
 #model diagnostic
 par(mfrow = c(1,1))
 plot(predict(model3),resid(model3),pch=19,cex=1.2,cex.lab=1.5,cex.main=1.5,
