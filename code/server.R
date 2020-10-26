@@ -29,7 +29,7 @@ server <- function(input, output) {
   })
   
   output$status = renderText({
-    if (esti()[1] <= 2){"This body fat value is too low for human beings, are you sure you imported the right value?"}
+    if (esti()[1] <= 2){"This body fat value is too low for people, are you sure you imported the right value?"}
     else if ((esti()[1] < 6) & (esti()[1] > 2)){"Your body status is: Essential."}
     else if ((esti()[1] < 14) & (esti()[1] >= 6)){"Your body status is: Athletes."}
     else if ((esti()[1] < 18) & (esti()[1] >= 14)){"Your body status is: Fitness."}
@@ -40,11 +40,14 @@ server <- function(input, output) {
   
   output$plot = renderPlot({
     ggplot(BodyFat, aes(x=BODYFAT))+geom_density(color="grey", fill="skyblue",size=1,alpha=0.4)+
-    geom_vline(aes(xintercept=esti()[1]),color="black", size=1) + 
-    geom_vline(aes(xintercept=max(0,esti()[2])), colour="red", linetype="dashed") +
-    geom_vline(aes(xintercept=min(100,esti()[3])), colour="red", linetype="dashed") +
-    theme_minimal() +
-    scale_x_continuous(limits=c(0, 50))
+    geom_vline(aes(xintercept=esti()[1]),color="darkblue", size=1.5) + 
+    geom_vline(aes(xintercept=max(0,esti()[2])), colour="darkred", linetype="dashed", size=1.5) +
+    geom_vline(aes(xintercept=min(100,esti()[3])), colour="darkred", linetype="dashed", size=1.5) +
+    theme_minimal() +theme(legend.title = element_blank()) +
+    scale_x_continuous(limits=c(0, 50)) +
+    labs(title="Density Plot of BodyFat%",
+         caption = "The dark blue line stands for your estimated bodyfat, the dark red dashed line stands for the 95% confidence interval.") +
+    theme(plot.title = element_text(size = 20,hjust = 0.5),plot.caption = element_text(size = 12, face = "italic"),axis.title = element_text(size=14))
     #abline(v = esti,col = "red")
   }, height = 300, width = 800)
   
@@ -56,7 +59,7 @@ server <- function(input, output) {
                   strip.width = 0.2, strip.length = 4.2)
     axis(side=3, at=c(0.035,0.09,0.15,0.195,0.28)/50*100, tick=FALSE,
          labels=c("Essential\n2~5%", "Athletes\n6~13%", "Fitness\n14~17%", "Average\n18~25%","Obese\n25%+")) 
-    arrows(esti()[1]/50, 0.85, esti()[1]/50, 1.05, length=0, lwd=2)
+    arrows(esti()[1]/50, 0.85, esti()[1]/50, 1.05, length=0, lwd=4.5,col = "darkblue")
   }, height = 300, width = 800)
   
   outputOptions(output, 'weight', suspendWhenHidden=FALSE)
